@@ -307,6 +307,35 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>WM</fullName>
+                    <default>false</default>
+                    <label>WM</label>
+                </value>
+                <value>
+                    <fullName>MA</fullName>
+                    <default>false</default>
+                    <label>MA</label>
+                </value>
+                <value>
+                    <fullName>MM</fullName>
+                    <default>false</default>
+                    <label>MM</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>UpsellOpportunity__c</fullName>
         <externalId>false</externalId>
         <label>Upsell Opportunity</label>
