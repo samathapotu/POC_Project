@@ -345,9 +345,41 @@
         <unique>true</unique>
     </fields>
     <fields>
+        <fullName>member_number__c</fullName>
+        <externalId>false</externalId>
+        <label>member number</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>samatha_number__c</fullName>
         <externalId>false</externalId>
         <label>samatha_number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>spouse_name__c</fullName>
+        <externalId>false</externalId>
+        <label>spouse name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>spouse_number__c</fullName>
+        <externalId>false</externalId>
+        <label>spouse number</label>
         <precision>18</precision>
         <required>false</required>
         <scale>0</scale>
